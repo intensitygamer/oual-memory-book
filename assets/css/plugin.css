@@ -1,0 +1,78 @@
+/* Registration And Login Form Style Template */
+.memory_book_body { font-family: "Poppins", sans-serif; }
+.oual_form_front .show_pass { text-decoration: none;color: #1f73b7; }
+.oual_form_front .form-check label { cursor: pointer; }
+.oual-plg-btn-lg { padding: .8rem 1.5rem; }
+.oual-plg-footer { background-color: rgba(0, 0, 0, 0.05); }
+.ouap-footer-brand { display: block; }
+.oual-footer-nav p { margin-bottom: 0.2rem; }
+.oual-footer-nav p a { text-decoration: none;color: #6c757d; }
+.oual-footer-nav p a:hover { color: #1f73b7; }
+.oual-plg-footer a { text-decoration: none; font-weight: 500; color: #6c757d; }
+.sign-up, .login { background-color: #f8f9fa;background:url('../images/form-bg-one.jpg') fixed no-repeat bottom right; }
+.oual-main-content p { margin-bottom: 0; font-size: 1em; }
+.pl_submit { border-width: .1em;vertical-align: -.05em; }
+
+
+.new-project { background-color: #f8f9fa;background:url('../images/form-bg-two.jpg') fixed no-repeat bottom right; }
+.new-project input[type="date"] { text-transform: uppercase; }
+
+.project-upload-dropzone {
+    background-color: #fff4eb;
+    border-radius: 0.4rem;
+    margin: 1rem auto;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+.project-upload-dropzone p { font-size: .875em; }
+.project-upload-dropzone:hover { background-color: #ffe9d7; cursor: pointer; }
+
+
+/*Admin Dashboard*/
+.admin-dashboard { background: #f3f4f6; }
+.admin-dashboard nav { background: #fff;max-width: 300px;width: 100%;height: 500px; }
+.dashboard-logo { display: block; text-align: center; margin: 15px 0; }
+.dashboard-logo a { display: inline-block; }
+.dashboard-sidebar { flex: 0 0 auto;width: 22%; }
+.dashboard-content { flex: 0 0 auto;width: 78%;color: #4d4d4d; }
+.dashboard-content h3 { font-size: 1.5rem; }
+.menu-project-display { display:block;padding: .7rem;color: #000;background-image: url(https://d25q0otwc1apt0.cloudfront.net/assets/icons/arrows-6b5b09719dbf8b01b908dbfe3d9200cccfe3000cc84e7914d0a62687c08e0ed2.svg); background-position: calc(100% - 1rem) 50%; background-repeat: no-repeat;position: relative;background-color: #cfe2ff;margin-bottom: 1rem;border: 1px solid transparent;border-radius: .25rem;text-decoration: none; cursor: pointer; }
+.menu-project-media { display: inline-block; background-color: #fff;border: 1px solid #e9ebed;border-radius: 0.4rem;-webkit-box-shadow: 0 0 0.25rem 0.1rem rgba(0,0,0,0.05);box-shadow: 0 0 0.25rem 0.1rem rgba(0,0,0,0.05);height: auto;margin-right: 1rem;padding: 0.4rem; }
+.menu-project-media img { height: auto; }
+.menu-project-display p, .choose-project p { display: inline-block;margin: 0; }
+.choose-project { display:block;padding: .7rem;color: #000;background-color: #eee;margin-bottom: 1rem;border: 1px solid transparent;border-radius: .25rem;text-decoration: none; cursor: pointer; }
+.project-active { background-color: #cfe2ff; border-color: #1f73b7; pointer-events: none; cursor: default; }
+.deadline-info, .invite-collab-link { margin-left: .3rem; cursor: pointer;color: #1f73b7; }
+.project_timer { float: right; font-size: 1.5rem; position: relative; top: .7rem; }
+
+
+.project-menu-nav { padding: 0 25px;border-bottom: 1px solid #ccc; }
+.project-menu-nav h4 { color: #4d4d4d;font-size: 1.2rem; }
+.project-menu-nav ul { list-style-type: none; }
+.project-menu-nav li a { padding: 5px 10px; display: block; text-decoration: none; color: #4d4d4d; }
+.project-menu-nav li a:hover { color: #1f73b7; }
+.project-menu-nav li a.menu-link-active { border-left: 4px solid #1f73b7;color: #1f73b7; }
+
+
+.project-details-block { background-color: #fff;padding: 2rem; }
+.project-details-block h3 { color: #000; }
+.project-details-block img { max-width: 250px; width: 100%; height: auto; }
+.project-info-list { font-weight: 500; }
+.project-checklist { display: block;background: #fff;padding: 15px;box-shadow: 0 3px 4px rgba(0,0,0,0.08);text-decoration: none; color: #606060; }
+.project-checklist:hover { color: #1f73b7; }
+.project-checklist p { display: inline-block; vertical-align: middle; max-width: 60%; width: 100%; margin: 0; }
+.no-invites { display:block;margin: 0 auto;max-width: 25%; text-align: center; }
+
+.list-display-heading { color: #4d4d4d; }
+.display-project-card { max-width: 20rem; width: 100%; display: inline-block;margin: 1rem 0; }
+.display-project-card .card { box-shadow: 0 3px 4px rgba(0,0,0,0.08); }
+.display-project-card .card-text { margin: 0; }
+.display-project-card .card-text span.cart-text-head { font-weight: 500; }
+.display-card-footer { position: absolute; width: 100%; bottom: 0; }
+
+#manageContributorContent { background-color: #fff; border-bottom: 1px solid #dee2e6; border-left: 1px solid #dee2e6; border-right: 1px solid #dee2e6; }
+#invite-contributor, #message-contributor { padding: 2rem; }
+.email_invitation_text i { font-size: .8rem; display: block; }

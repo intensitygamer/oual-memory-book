@@ -1,0 +1,122 @@
+[04-Nov-2021 14:18:35 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1194
+[04-Nov-2021 14:21:10 UTC] PHP Warning:  fopen(assets/images/company-logo.png): failed to open stream: No such file or directory in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 1257
+[04-Nov-2021 14:21:10 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: assets/images/company-logo.png in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php:271
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php(885): FPDF->_parsepng('assets/images/c...')
+#2 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(1215): FPDF->Image('assets/images/c...', 60.001555555556, 122.00008333333, 0, 0, 'png')
+#3 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 271
+[04-Nov-2021 14:23:20 UTC] PHP Warning:  file_put_contents(http://...@gmail.com-Divine.pdf): failed to open stream: HTTP wrapper does not support writeable connections in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 1021
+[04-Nov-2021 14:23:20 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: http://onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/uploaded_pdf/jewmer04@gmail.com-Divine.pdf in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php:271
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(1191): FPDF->Output('F', 'http://onceupon...')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 271
+[04-Nov-2021 14:36:29 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 42
+[04-Nov-2021 14:36:29 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: No stream given. in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/PdfParser/StreamReader.php:104
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/PdfParser/StreamReader.php(43): setasign\Fpdi\PdfParser\StreamReader->__construct(false, true)
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/FpdiTrait.php(174): setasign\Fpdi\PdfParser\StreamReader::createByFile('')
+#2 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/FpdiTrait.php(213): setasign\Fpdi\Fpdi->getPdfReaderId('')
+#3 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(1200): setasign\Fpdi\Fpdi->setSourceFile('')
+#4 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/vendor/setasign/fpdi/src/PdfParser/StreamReader.php on line 104
+[04-Nov-2021 14:47:05 UTC] PHP Warning:  file_put_contents(http://...@gmail.com-Divine.pdf): failed to open stream: HTTP wrapper does not support writeable connections in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 1021
+[04-Nov-2021 14:47:05 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: http://onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/uploaded_pdf/jewmer04@gmail.com-Divine.pdf in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php:271
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(1191): FPDF->Output('F', 'http://onceupon...')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 271
+[04-Nov-2021 15:10:02 UTC] PHP Warning:  file_put_contents(http://onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/uploaded_pdf/Divine.pdf): failed to open stream: HTTP wrapper does not support writeable connections in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 1021
+[04-Nov-2021 15:10:02 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unable to create output file: http://onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/uploaded_pdf/Divine.pdf in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php:271
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php(1022): FPDF->Error('Unable to creat...')
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(1191): FPDF->Output('F', 'http://onceupon...')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/dashboard/pdf/fpdf.php on line 271
+[04-Nov-2021 15:16:33 UTC] PHP Warning:  require_once(../dashboard/vendor/setasign/fpdi/src/PdfParser.php): failed to open stream: No such file or directory in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 11
+[04-Nov-2021 15:16:33 UTC] PHP Fatal error:  require_once(): Failed opening required '../dashboard/vendor/setasign/fpdi/src/PdfParser.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 11
+[04-Nov-2021 15:17:15 UTC] PHP Warning:  require_once(../dashboard/vendor/setasign/fpdi/src/PdfParser.php): failed to open stream: No such file or directory in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 11
+[04-Nov-2021 15:17:15 UTC] PHP Fatal error:  require_once(): Failed opening required '../dashboard/vendor/setasign/fpdi/src/PdfParser.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 11
+[04-Nov-2021 15:36:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRealPath() on string in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php:1199
+Stack trace:
+#0 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1199
+[04-Nov-2021 16:38:32 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 999
+[04-Nov-2021 16:39:12 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 999
+[04-Nov-2021 16:39:22 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 999
+[04-Nov-2021 16:39:48 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 999
+[05-Nov-2021 07:00:17 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 32
+[05-Nov-2021 07:00:28 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 32
+[05-Nov-2021 07:00:47 UTC] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 32
+[05-Nov-2021 10:56:35 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 10:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello i hope yo...', '5', '3poBFHDM')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[05-Nov-2021 11:15:57 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 11:15:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello how are y...', '5', '3poBFHDM')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[05-Nov-2021 14:56:24 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 14:56:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello ', '5', '3poBFHDM')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[05-Nov-2021 14:56:50 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 14:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello ', '5', '3poBFHDM')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[05-Nov-2021 14:59:26 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 14:59:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello', '5', '3poBFHDM')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[05-Nov-2021 15:04:24 UTC] PHP Warning:  Creating default object from empty value in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 21
+[05-Nov-2021 15:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::isSMTP() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php:22
+Stack trace:
+#0 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php(139): mail_credentials()
+#1 /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php(296): mail_submission_for_msg_contributors('jewmer.job@gmai...', 'Hello', '5', 'CORnyalp')
+#2 {main}
+  thrown in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/emails/invitation.php on line 22
+[03-Dec-2021 02:19:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[03-Dec-2021 02:19:05 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[03-Dec-2021 02:19:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 11:58:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 11:58:17 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 11:58:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 13:23:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:32 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 13:23:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:34 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 13:23:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:36 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:23:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 13:24:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:24:20 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 13:24:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[12-Jan-2022 16:37:35 UTC] PHP Notice:  Undefined index: user_id in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1006
+[12-Jan-2022 16:37:35 UTC] PHP Notice:  Undefined index: user_id in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1007
+[12-Jan-2022 16:37:35 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 16:37:35 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[12-Jan-2022 16:37:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
+[13-Jan-2022 10:39:16 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[13-Jan-2022 10:39:16 UTC] PHP Notice:  Trying to get property 'page_status' of non-object in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1030
+[13-Jan-2022 10:39:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/timprint/onceuponalegacy.net/bepi/wp-content/plugins/oual-memory-book/ajax/front-ajax.php on line 1043
